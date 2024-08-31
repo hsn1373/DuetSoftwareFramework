@@ -1336,6 +1336,10 @@ namespace DuetWebServer.Controllers
         }
         #endregion
 
+        #region CustomPlugin
+
+        #endregion
+
         private async Task<CommandConnection> BuildConnection()
         {
             CommandConnection connection = new();
